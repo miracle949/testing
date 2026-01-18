@@ -50,7 +50,7 @@
     display: none;
 }
 
-.container-fluid nav .nav-name button{
+.container-fluid nav .nav-name button {
     border: none;
     background: none;
 }
@@ -106,22 +106,22 @@
     padding: 1rem;
 }
 
-.container-fluid .sidebar .sidebar-menu ul{
+.container-fluid .sidebar .sidebar-menu ul {
     padding: 0px 0px 0px 0px;
 }
 
-.container-fluid .sidebar .sidebar-menu ul li{
+.container-fluid .sidebar .sidebar-menu ul li {
     list-style: none;
     line-height: 60px;
     padding: 0 20px;
 }
 
-.container-fluid .sidebar .sidebar-menu ul li:hover{
+.container-fluid .sidebar .sidebar-menu ul li:hover {
     background-color: #E7E8EB;
     border-radius: 10px;
 }
 
-.container-fluid .sidebar .sidebar-menu ul li a{
+.container-fluid .sidebar .sidebar-menu ul li a {
     display: flex;
     justify-content: left;
     align-items: center;
@@ -139,8 +139,8 @@
 
 .container-fluid .rightbar .card-parent-box {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     gap: 1rem;
     flex-wrap: wrap;
     width: 100%;
@@ -151,6 +151,14 @@
     border: 1px solid black;
     padding: 2rem;
 }
+
+/* .offcanvas-backdrop.fade.show{
+    width: 200px;
+} */
+
+/* .container-fluid .offcanvas{
+   width: 30%;
+} */
 
 @media only screen and (max-width: 1024px) {
     .container-fluid .rightbar .card-parent-box .card-box {
@@ -220,6 +228,20 @@
     .container-fluid nav .nav-title button .fa {
         font-size: 17px;
     }
+
+    /* .custom-offcanvas{
+        width: 300px;
+    } */
+
+    #staticBackdrop {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #staticBackdrop {
+        width: 320px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -233,6 +255,10 @@
 
     .container-fluid nav .nav-title button .fa {
         font-size: 20px;
+    }
+
+    #staticBackdrop {
+        width: 320px;
     }
 }
 
