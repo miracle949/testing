@@ -348,6 +348,35 @@
     }
 }
 
+@media only screen and (max-width: 470px) {
+
+    .container-fluid .rightbar .module-title {
+        padding: 2rem;
+    }
+
+    .container-fluid .rightbar .module-parent-progress .module-progress,
+    .title-progress-bar {
+        padding: 0 1.5rem;
+    }
+
+    .container-fluid .rightbar .module-parent-progress .module-progress h3 {
+        padding: 0 1.5rem;
+    }
+
+    .container-fluid .rightbar .module-parent-progress .module-progress p {
+        padding: 0 1.5rem;
+    }
+
+    .container-fluid .rightbar .module-parent-progress .module-progress .parent-progress-bar {
+        padding: 0 1.5rem;
+    }
+
+    .container-fluid .rightbar .module-parent-progress .module-progress {
+        padding: 2rem 0 0 0;
+    }
+
+}
+
 @media only screen and (max-width: 420px) {
     #staticBackdrop {
         width: 320px;
@@ -359,6 +388,7 @@
         width: 320px;
     }
 } */
+ 
 
 @media only screen and (max-width: 400px) {
     .container-fluid nav .nav-title h3 {
