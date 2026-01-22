@@ -341,6 +341,139 @@
     margin: 0;
 } */
 
+@media only screen and (max-width: 775px) {
+    .container-fluid .sidebar {
+        width: 0;
+        left: -100%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .container-fluid .sidebar .sidebar-menu {
+        display: none;
+        overflow: hidden;
+        opacity: 0;
+    }
+
+    .container-fluid .rightbar {
+        width: calc(100% - 0px);
+        margin-left: 0px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .container-fluid nav .nav-title .menu-bar {
+        display: block;
+    }
+
+    .container-fluid nav .nav-name {
+        display: block;
+    }
+
+    .container-fluid nav .nav-acc {
+        display: none;
+    }
+
+    .container-fluid nav {
+        padding: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .container-fluid nav .nav-title h3 {
+        font-size: 17px;
+    }
+
+    .container-fluid nav .nav-acc {
+        display: none;
+    }
+
+    .container-fluid .rightbar {
+        height: calc(100% - 83px);
+        margin-top: 83px;
+        padding: 1.5rem;
+    }
+
+    .container-fluid nav .nav-name {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .container-fluid nav {
+        padding: 1.5rem 1rem 1.5rem 1rem;
+    }
+
+    .container-fluid nav .nav-title button .fa {
+        font-size: 17px;
+    }
+
+    /* .custom-offcanvas{
+        width: 300px;
+    } */
+
+    #staticBackdrop {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+
+    .container-fluid .rightbar .module-title {
+        padding: 2rem;
+    }
+
+    .container-fluid .rightbar .module-parent-progress .module-progress,
+    .title-progress-bar {
+        padding: 0 1.5rem;
+    }
+
+    .container-fluid .rightbar .module-parent-progress .module-progress h3 {
+        padding: 0 1.5rem;
+    }
+
+    .container-fluid .rightbar .module-parent-progress .module-progress p {
+        padding: 0 1.5rem;
+    }
+
+    .container-fluid .rightbar .module-parent-progress .module-progress .parent-progress-bar {
+        padding: 0 1.5rem;
+    }
+
+    .container-fluid .rightbar .module-parent-progress .module-progress {
+        padding: 2rem 0 0 0;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    #staticBackdrop {
+        width: 320px;
+    }
+}
+
+/* @media only screen and (max-width: 420px) {
+    #staticBackdrop {
+        width: 320px;
+    }
+} */
+ 
+
+@media only screen and (max-width: 400px) {
+    .container-fluid nav .nav-title h3 {
+        display: none;
+    }
+
+    .container-fluid nav .nav-title button .fa {
+        font-size: 20px;
+    }
+
+    .container-fluid nav .nav-title button .fa {
+        font-size: 20px;
+    }
+
+    #staticBackdrop {
+        width: 320px;
+    }
+}
+
 @media only screen and (max-width: 580px) {
     .container-fluid div.rightbar {
         padding: 0;
