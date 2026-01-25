@@ -379,9 +379,6 @@
 }
 
 @media only screen and (max-width: 560px) {
-    .container-fluid .rightbar .card-box-parent .card-box {
-        padding: 2.5rem 2rem 2.5rem 1.3rem;
-    }
 
     .container-fluid .rightbar .card-box-parent .card-box .card-box-name p {
         font-size: 19px;
@@ -407,6 +404,10 @@
 @media only screen and (max-width: 475px) {
     .container-fluid .rightbar .card-box-parent .card-box .card-box-name .card-box-icon {
         display: none;
+    }
+
+    .container-fluid .rightbar .card-box-parent .card-box {
+        padding: 2.5rem 1.5rem 2.5rem 1.3rem;
     }
 }
 
