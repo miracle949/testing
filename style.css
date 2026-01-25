@@ -261,6 +261,230 @@
     font-size: 17px;
 }
 
+.container-fluid .rightbar .text-progress h2 {
+    font-size: 20px;
+    margin: 3.5rem 1.5rem 2rem 1rem;
+}
+
+.container-fluid .rightbar .card-parent-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.container-fluid .rightbar .card-parent-box .card-box {
+    width: calc(100% / 3.2);
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid .rightbar .card-parent-box .card-box p {
+    margin: 0;
+}
+
+.container-fluid .rightbar .card-parent-box .card-box .data_text span {
+    font-size: 14px;
+    color: #808080;
+}
+
+.container-fluid .rightbar .card-parent-box .card-box .data_text p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.container-fluid .rightbar .card-parent-box .card-box .data_text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.container-fluid .rightbar .card-parent-box .card-box .data_icon .fa {
+    font-size: 45px;
+}
+
+.container-fluid .rightbar .card-parent-box .card-box .data_icon .fa-book-open {
+    color: #2B7FFF;
+}
+
+.container-fluid .rightbar .card-parent-box .card-box .data_icon .fa-award {
+    color: #00C950;
+}
+
+.container-fluid .rightbar .card-parent-box .card-box .data_icon .fa-clock {
+    color: #AD46FF;
+}
+
+.container-fluid .rightbar .progress-parent-box {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.9rem;
+    border-radius: 10px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box .progress-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+    width: 50%;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-title span {
+    font-size: 18px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-title .parent-icon {
+    background-color: #00C950;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box:nth-child(2) .progress-parent .progress-title .parent-icon{
+    background-color: #6440AE;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box:nth-child(3) .progress-parent .progress-title .parent-icon{
+    background-color: #DE316B;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box:nth-child(4) .progress-parent .progress-title .parent-icon{
+    background-color: #5D7C81;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box:nth-child(5) .progress-parent .progress-title .parent-icon{
+    background-color: #DE316B;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box:nth-child(6) .progress-parent .progress-title .parent-icon{
+    background-color: #6440AE;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-title .parent-icon .fa {
+    font-size: 22px;
+    color: white;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-percent-parent {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.5rem; */
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-percent-parent .progress-percent-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-percent-parent p{
+    margin: 0;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-percent-parent .progress-percent {
+    position: relative;
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #d9d9d9;
+    border-radius: 28px;
+    margin-top: 8px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-percent-parent .progress-percent .percent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #00C950;
+    width: 50%;
+    padding: 0.6rem;
+    border-radius: 28px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box:nth-child(2) .progress-parent .progress-percent-parent .progress-percent .percent{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #6440AE;
+    width: 50%;
+    padding: 0.6rem;
+    border-radius: 28px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box:nth-child(3) .progress-parent .progress-percent-parent .progress-percent .percent{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #DE316B;
+    width: 50%;
+    padding: 0.6rem;
+    border-radius: 28px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box:nth-child(4) .progress-parent .progress-percent-parent .progress-percent .percent{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #5D7C81;
+    width: 50%;
+    padding: 0.6rem;
+    border-radius: 28px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box:nth-child(5) .progress-parent .progress-percent-parent .progress-percent .percent{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #DE316B;
+    width: 50%;
+    padding: 0.6rem;
+    border-radius: 28px;
+}
+
+.container-fluid .rightbar .progress-parent-box .progress-box:nth-child(6) .progress-parent .progress-percent-parent .progress-percent .percent{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #6440AE;
+    width: 50%;
+    padding: 0.6rem;
+    border-radius: 28px;
+}
+
 /* .offcanvas-backdrop.fade.show{
     width: 200px;
 } */
@@ -268,6 +492,58 @@
 /* .container-fluid .offcanvas{
    width: 30%;
 } */
+
+@media only screen and (max-width: 1013px) {
+    .container-fluid .rightbar .progress-parent-box {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .container-fluid .rightbar .text-progress h2 {
+        margin: 2.5rem 1.5rem 2.5rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 764px) {
+    .container-fluid .rightbar .progress-parent-box .progress-box .progress-parent {
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-title {
+        width: 100%;
+    }
+
+    .container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-percent-parent {
+        width: 100%;
+    }
+
+    .container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-title {
+        justify-content: left;
+        align-items: left;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-title span {
+        font-size: 17.3px;
+    }
+
+    .container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-title .parent-icon {
+        padding: 0.9rem;
+    }
+
+    .container-fluid .rightbar .progress-parent-box .progress-box .progress-parent .progress-title .parent-icon .fa {
+        font-size: 21px;
+        color: white;
+    }
+
+    .container-fluid .rightbar .progress-parent-box .progress-box {
+        padding: 1.5rem;
+    }
+}
 
 @media only screen and (max-width: 1024px) {
     .container-fluid .rightbar .card-parent-box .card-box {
