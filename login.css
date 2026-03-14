@@ -5,7 +5,7 @@
     src: url('Titan_One/TitanOne-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-}   
+}
 
 
 * {
@@ -181,6 +181,7 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
     border-radius: 20px;
     background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .container-fluid .login-parent .form:hover {
@@ -355,16 +356,40 @@
     } */
 }
 
-@media only screen and (max-width: 415px){
+@media only screen and (max-width: 415px) {
     .container-fluid .login-parent .form {
-        padding-top: 2rem;
-        padding-left: 1.3rem;
-        padding-right: 1.3rem;
-        padding-bottom: 2rem;
+        padding-top: 3rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 3rem;
     }
 
     .container-fluid .login-parent {
         height: 100dvh;
         padding: 1.3rem;
+    }
+
+    .container-fluid .login-parent .form .form-logo p {
+        margin-top: 1rem;
+        font-size: 15px;
+    }
+
+    .container-fluid .login-parent .form h2 {
+        margin-top: 1rem;
+    }
+
+    .container-fluid .login-parent .form .text-box {
+        margin-top: 1.5rem;
+    }
+
+    .container-fluid .login-parent .form .text-box input,
+    .container-fluid .login-parent .form .text-box label,
+    .container-fluid .login-parent .form .text-box select {
+        font-size: 15px;
+    }
+
+    .container-fluid .login-parent .form .forgot a {
+        font-size: 15px;
+        color: #212529;
     }
 }

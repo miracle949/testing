@@ -952,9 +952,9 @@ html {
 }
 
 @media only screen and (max-width: 420px) {
-    .container-fluid nav .nav-logo p {
+    /* .container-fluid nav .nav-logo p {
         display: none;
-    }
+    } */
 
     .container-fluid main .main-text p {
         max-width: 600px;
