@@ -357,16 +357,25 @@
 }
 
 @media only screen and (max-width: 415px) {
+
     .container-fluid .login-parent .form {
         padding-top: 3rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
         padding-bottom: 3rem;
+        box-shadow: none;
+        background: none;
+        border: none;
+    }
+
+    .container-fluid .login-parent .form:hover {
+        all: unset;
     }
 
     .container-fluid .login-parent {
         height: 100dvh;
         padding: 1.3rem;
+        background-color: white;
     }
 
     .container-fluid .login-parent .form .form-logo p {
